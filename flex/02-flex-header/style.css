@@ -15,12 +15,13 @@
 }
 ul.left-links{
   display: flex;
-  flex-direction: row;
+  justify-content: flex-start;
+
 }
 
 .right-links{
   display: flex;
-  flex-direction: row-reverse;
+  justify-content: flex-end;
 }
 ul {
   /* this removes the dots on the list items*/
