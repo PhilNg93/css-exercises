@@ -15,8 +15,8 @@
 }
 .left-links{
   display: flex;
+  flex-direction: flex-start;
   justify-content: flex-start;
-  align-items: flex-start;
   flex-direction: row;
 }
 
