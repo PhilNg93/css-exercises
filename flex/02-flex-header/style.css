@@ -1,7 +1,7 @@
 .header  {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   font-family: monospace;
   background: papayawhip;
 }
@@ -15,14 +15,18 @@
 }
 .left-links{
   display: flex;
+<<<<<<< HEAD
+=======
   flex-direction: flex-start;
   justify-content: flex-start;
+>>>>>>> a2afcc2c1804773f50d94916e6ca1dd8433c6da1
   flex-direction: row;
 }
 
 .right-links{
   display: flex;
   justify-content: flex-end;
+  align-content: flex-end;
   flex-direction: row-reverse;
 }
 
