@@ -16,6 +16,7 @@
 .left-links{
   display: flex;
   justify-content: flex-start;
+  align-items: flex-start;
   flex-direction: row;
 }
 
@@ -25,12 +26,12 @@
   flex-direction: row-reverse;
 }
 
-ul {
+.ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
 }
 
-a {
+.a {
   font-size: 22px;
   background: white;
   padding: 8px;
